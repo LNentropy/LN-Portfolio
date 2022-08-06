@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LN Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet">
+  <script src="https://kit.fontawesome.com/affd9bcdcd.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<main>
+<div class="app">
+  <div class="projectList">
+    <button class="projectList__btn btn btn--left">
+      <div class="icon">
+        <svg>
+          <use xlink:href="#arrow-left"></use>
+        </svg>
+      </div>
+    </button>
+
+    <div class="cards__wrapper">
+
+      <div class="card current--card">
+        <div class="card__image">
+          <a href="https://ln-shootpoofing.netlify.app/" target="_blank">
+            <img src="/Assets/ShootingCard.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card next--card">
+        <div class="card__image">
+          <a href="https://ln-dex.netlify.app/" target="_blank">
+            <img src="/Assets/DexCard.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card previous--card">
+        <div class="card__image">
+          <a href="https://ln-3d-product-viewer.netlify.app/" target="_blank">
+            <img src="/Assets/3DProduct.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <button class="projectList__btn btn btn--right">
+      <div class="icon">
+        <svg>
+          <use xlink:href="#arrow-right"></use>
+        </svg>
+      </div>
+    </button>
+  </div>
+
+  <div class="infoList">
+    <div class="info__wrapper">
+      <div class="info current--info">
+        <h1 class="text name">Web-Based Game</h1>
+        <h4 class="text location">Poof...</h4>
+        <p class="text description">Shooting your problems away.</p>
+      </div>
+
+      <div class="info next--info">
+        <h1 class="text name">DEX</h1>
+        <h4 class="text location">Crypto Exchanger</h4>
+        <p class="text description">Exchange your coins with 1inch router.</p>
+      </div>
+
+      <div class="info previous--info">
+        <h1 class="text name">3D Product Viewer</h1>
+        <h4 class="text location">E-Commerce</h4>
+        <p class="text description">Don't buy without knowing...</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="app__bg">
+    <div class="app__bg__image current--image">
+      <img src="/Assets/BackgroundShooting.gif" alt="" />
+    </div>
+    <div class="app__bg__image next--image">
+      <img src="/Assets/BackgroundDex.gif" alt="" />
+    </div>
+    <div class="app__bg__image previous--image">
+      <img src="/Assets/Background3DProducts.gif" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="loading__wrapper">
+  <div class="loader--text">Loading...</div>
+  <div class="loader">
+    <span></span>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="main-content">
+
+    <div class="left box">
+      <h2>About me</h2>
+      <div class="content">
+        <p>Tech lover with 13 years of experience in corporate and professional education, excited to build innovative technological solutions.</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/professorleandronunes/" target="_blank" rel="noopener noreferrer"><span class="fa-brands fa-linkedin"></span></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="center box">
+      <h2>Location & Contact</h2>
+      <div class="content">
+        <div class="place">
+          <a href="https://goo.gl/maps/CeFJ5WzacVksyTBw8" target="_blank" rel="noopener noreferrer"><span class="fas fa-map-marker-alt"></span></a>
+          <span class=""></span>
+          <span class="text">Minas Gerais, Brazil</span>
+        </div>
+        <div class="phone">
+          <a href="https://wa.me/5531991309906" target="_blank" rel="noopener noreferrer"><span class="fa-brands fa-whatsapp"></span></a>
+          <span class="text">+55 (31) 991309906</span>
+        </div>
+        <div class="email">
+          
+          <a href="https://shorturl.at/bghin" target="_blank" rel="noopener noreferrer"><span class="fa-regular fa-envelope"></span></a>
+          <span class="text">leo.3d@hotmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="right box">
+      <h2>Contact me</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email: *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Message: *</div>
+            <textarea id="messageField" cols="25" rows="2" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<svg class="icons" style="display: none;">
+  <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+    <polyline points='328 112 184 256 328 400'
+           style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+  </symbol>
+  <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+    <polyline points='184 112 328 256 184 400'
+           style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+  </symbol>
+</svg>
+
+<script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
